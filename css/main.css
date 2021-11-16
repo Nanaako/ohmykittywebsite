@@ -26,7 +26,11 @@ h2{
 li:hover {
     color:red;
 }
+li:active{
+    color: blue;
+}
+
 #navigation:hover, #kitties :hover, #about-us:hover{
     background-color: cornsilk
 }
-    
+
