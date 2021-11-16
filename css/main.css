@@ -1,0 +1,32 @@
+
+p{ font-size: large;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+h1{
+    font-size: 33px;
+    color: tomato;
+
+}
+
+div{
+    width: 100%;
+    background-color:snow;
+}
+
+h2{
+    display: block;
+    font-size: larger;
+    color: tomato;
+}
+li:hover {
+    color:red;
+}
+#navigation:hover, #kitties :hover, #about-us:hover{
+    background-color: cornsilk
+}
+    
