@@ -34,3 +34,27 @@ li:active{
     background-color: cornsilk
 }
 
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+p{
+    font-size: 16px;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+.contact-method :hover{
+    color:red;
+}
+.contact-method :active{
+    color: blue;
+}
+.contact-method :visited{
+    color: green
+}
