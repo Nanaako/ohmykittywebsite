@@ -58,3 +58,6 @@ p{
 .contact-method :visited{
     color: green
 }
+#header {
+    text-transform: capitalize;
+}
