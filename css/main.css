@@ -1,3 +1,7 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
 h1{
     font-size: 48px;
     color: tomato;
@@ -9,23 +13,33 @@ div{
 }
 
 h2{
-    font-size: larger;
     color: tomato;
-    font-size: 32px;
+    font-size: 36px;
     display: inline-block;
     padding: 16px;
 }
 
-*{
-    font-family:Arial, Helvetica, sans-serif
+h3{
+    font-size: 24px;
+    color: tomato;
 }
 
 .contact-method :hover{
     color:red;
 }
+
 .contact-method :active{
     color: blue;
 }
+
 .contact-method :visited{
     color: green
+}
+
+.box{
+    margin: 30px;
+    padding: 20px;
+    border: 8px solid brown;
+    height: 200px;
+    width: 400px;
 }
