@@ -37,7 +37,7 @@ h3{
 }
 
 .box{
-    margin: 30px;
+    margin: 30px auto;
     padding: 20px;
     border: 8px solid brown;
     height: 200px;
