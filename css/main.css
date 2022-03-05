@@ -56,5 +56,14 @@ h3{
     margin-bottom: 20px;
 }
 
+.random{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px;
+    background-color:rgb(236, 145, 145); 
+    margin: 50px;   
+}
+
 
 
