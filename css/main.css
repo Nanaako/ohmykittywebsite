@@ -11,12 +11,12 @@ div{
     width: 100%;
     background-color:snow;
 }
-
+    
 h2{
     color: tomato;
     font-size: 36px;
     display: inline-block;
-    padding: 16px;
+    margin: 15px;
 }
 
 h3{
@@ -37,9 +37,13 @@ h3{
 }
 
 .box{
-    margin: 30px auto;
+    margin: 30px;
     padding: 20px;
     border: 8px solid brown;
     height: 200px;
     width: 400px;
+    display: inline-block;
+}
+.box h3{
+    padding-bottom: 20px;
 }
