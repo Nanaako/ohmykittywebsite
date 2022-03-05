@@ -18,7 +18,6 @@ h2{
     font-size: 36px;
     display: inline-block;
     margin: 15px;
-    width: 30%;
     padding: 16px;
 }
 
@@ -43,16 +42,19 @@ h3{
     margin: 30px;
     padding: 20px;
     border: 8px solid brown;
-    height: 200px;
-    width: 30%;
+    height: 400px;
+    width: 27%;
     display: inline-block;
-    border-radius: 20px 5px;
+    
 }
 .box h3{
     padding-bottom: 20px;
 }
-
-img{
-    border-radius: 30px;
-    padding: 16px;
+.box img{
+    width: 70%;
+    height: 60%;
+    margin-bottom: 20px;
 }
+
+
+
