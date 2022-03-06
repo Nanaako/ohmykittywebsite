@@ -81,13 +81,14 @@ h3{
     margin: 16px;
     padding: 16px;
     border: 2px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align:center;
     color: brown;
     background: coral;
     background:-o-linear-gradient(coral 0%, rgb(219, 191, 191) 100%);
     background:-moz-linear-gradient(coral 0%,rgb(219, 191, 191) 100%);
     background:linear-gradient(coral 0%, rgb(219, 191, 191) 100%);
+    box-shadow: 2px 2px 4px 2px rgb(236, 145, 145);
 }
 
 .button:hover{
