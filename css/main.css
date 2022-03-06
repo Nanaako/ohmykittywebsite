@@ -4,7 +4,7 @@
 
 h1{
     font-size: 48px;
-    color: tomato;
+    color: brown;
     padding: 16px;
 }
 
@@ -12,9 +12,17 @@ div{
     width: 100%;
     background-color:snow;
 }
+#banner{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    background-image:url(https://freesvg.org/img/Kitten.png);
+    background-repeat: no-repeat;
+
+}
     
 h2{
-    color: tomato;
+    color: brown;
     font-size: 36px;
     display: inline-block;
     margin: 15px;
@@ -23,9 +31,12 @@ h2{
 
 h3{
     font-size: 24px;
-    color: tomato;
+    color:brown;
 }
-
+.contact-method{
+    margin: 20px;
+    padding: 10px;
+}
 .contact-method :hover{
     color:red;
 }
@@ -64,6 +75,27 @@ h3{
     background-color:rgb(236, 145, 145); 
     margin: 50px;   
 }
+.button{
+    width: 100px;
+    height: 50px;
+    margin: 16px;
+    padding: 16px;
+    border: 2px;
+    border-radius: 20px;
+    text-align:center;
+    color: brown;
+    background: coral;
+    background:-o-linear-gradient(coral 0%, rgb(219, 191, 191) 100%);
+    background:-moz-linear-gradient(coral 0%,rgb(219, 191, 191) 100%);
+    background:linear-gradient(coral 0%, rgb(219, 191, 191) 100%);
+}
 
+.button:hover{
+    background: coral;
+    background:-o-linear-gradient(bottom, rgb(219, 191, 191) 0%, coral 100%);
+    background:-moz-linear-gradient(bottom,rgb(219, 191, 191) 0%, coral 100%);
+    background:linear-gradient(bottom, rgb(219, 191, 191) 0%, coral 100%);
+
+}
 
 
